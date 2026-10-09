@@ -2,18 +2,56 @@
 
 ![The Arrowhead concept art](reference.jpg)
 
-`reference.jpg` is the canonical target look for **The Arrowhead**. Any art,
-map tile, city view or scene built for it should match this reference.
+**The Arrowhead is an original design.** `reference.jpg` sets the setting,
+palette and mood, but it is **missing the city's defining landmark**: the
+giant arrowhead jutting out of the ground that the city is named for. All art
+for The Arrowhead must add it as described in
+[The Arrowhead landmark](#the-arrowhead-landmark) below.
 
 ## Setting
 
 A sun-baked desert port city on a sandy coast, built at the foot of a
-colossal wind-carved sandstone pillar. Two bays of water frame a narrow
-spit of land that leads straight toward the city, giving the place its
-pointed, arrowhead-like approach.
+colossal wind-carved sandstone pillar. Rising from the heart of the city is
+a titanic stone arrowhead, driven point-first into the earth at an angle as
+if fired from the sky, its base buried and its broad blade and tang jutting
+high above the rooftops. The city takes its name from it. Two bays of water
+frame a narrow spit of land that leads straight toward the city.
+
+## The Arrowhead landmark
+
+The single most important element of any depiction of the city. Nothing in
+the reference image shows it; it must be added.
+
+- **Form:** a classic knapped stone arrowhead (leaf/triangular blade with
+  notched shoulders and a short tang), **point buried in the ground**. Roughly
+  the bottom third of the blade is underground; the wide shoulders and tang
+  are exposed and point up and back toward the sky.
+- **Angle:** tilted ~20–30° from vertical, leaning away from the sea, as if
+  it struck the earth on a steep descent. The tilt should read clearly
+  against the near-vertical rock pillar.
+- **Scale:** taller than the great domed palace by several times and at least
+  as tall as the waist of the rock pillar — visible from anywhere on the
+  coast. It is the city's skyline focal point, not a monument on a plinth.
+- **Placement:** in or just behind the city centre, between the domed palace
+  and the rock pillar, so the causeway leads the eye straight to it.
+- **Material & surface:** dark, glassy knapped stone (obsidian/flint-like,
+  deep charcoal with blue-violet sheen) to contrast with the warm sandstone
+  around it. Conchoidal flake scars across both faces; sharp, faintly
+  catching edges. Weathered and dusty near the ground.
+- **Impact:** the ground around its base is heaved up in a broken crater rim
+  of cracked rock and sand, which the city has built over and into —
+  terraces, stairs and buildings follow the buckled ground.
+- **Integration with the city:** buildings cluster against its base; its
+  shadow falls across part of the city. Small figures, banners or walkways
+  on the lower exposed blade help sell the scale.
+
+Open questions to confirm: material/colour (obsidian vs. the same red
+sandstone as the cliffs), whether it was carved, natural, or fell from the
+sky in the lore, and its exact position relative to the rock pillar.
 
 ## Key elements (in order of visual importance)
 
+0. **The Arrowhead** — see the section above. Dominant focal point.
 1. **The great rock pillar** (right third of frame) — an enormous
    hoodoo/mesa of layered red-orange sandstone. Narrow at the waist,
    flaring into a wide overhanging cap that runs off the top of the frame.
@@ -51,6 +89,8 @@ pointed, arrowhead-like approach.
 | Lagoon             | Turquoise     | `#3FB7C9` |
 | Surf               | Off-white     | `#F2EEE8` |
 | Palms              | Olive green   | `#4C6B2E` |
+| Arrowhead stone    | Obsidian      | `#22232E` |
+| Arrowhead sheen    | Blue-violet   | `#5A5F8C` |
 
 ## Mood & lighting
 
@@ -65,5 +105,8 @@ pointed, arrowhead-like approach.
 
 - Wide panoramic framing (~2.2:1).
 - Horizon sits just below the vertical center.
-- The causeway acts as the leading line from the bottom-center into the city.
+- The causeway acts as the leading line from the bottom-center into the city
+  and on to the Arrowhead.
+- The Arrowhead's diagonal is the strongest line in the frame; keep it clear
+  of the pillar's silhouette so both read separately.
 - The giant pillar anchors the right; the distant pillar balances the left.
