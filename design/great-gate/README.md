@@ -1,7 +1,20 @@
-# The Breach / Great Gate — Visual Design Reference
+# The Great Gate & the Breach — Visual Design Reference
 
-How the **Great Gate** (also called **the Breach**) must look to someone
-approaching it. Two references cover the two stages of the approach:
+## Names and place in the world
+
+- **The Great Gate** is the gate itself: the grand entrance through the wall.
+- **The Breach** is the town on the far side of the Great Gate. Its full
+  name is **the Breach of Civilization**; locals and travellers just call it
+  "the Breach". It is an unofficial name, not the town's formal title.
+- The Breach is **the very first town travellers reach after leaving the
+  Wildlands of the West**. The wall marks the edge of the Wildlands, and
+  passing through the Great Gate is the traveller's first step back into
+  civilization.
+- The approach shown below is therefore from the **west**, coming in from the
+  Wildlands side, with the Breach lying beyond the gate to the east.
+
+This brief covers how the Great Gate, and the Breach behind it, must look to
+someone approaching. Two references cover the two stages of the approach:
 
 | Stage | Reference | What it sets |
 |-------|-----------|--------------|
@@ -26,7 +39,7 @@ The traveller's first full view of the gate, from the farm road below.
   twin towers flanking a deep central arch (portcullis/doors visible),
   framed by taller corner towers. It reads as more ornate and heavier than
   the plain wall either side.
-- **The city beyond:** a rocky hill rises behind the gate, crowned by a
+- **The Breach beyond:** a rocky hill rises behind the gate, crowned by a
   castle/citadel with towers and terraced buildings tumbling down its slopes.
   A lone slender spire/tower stands further along the wall to the right.
 - **The landscape:** green rolling hills, a winding blue river, patchwork
@@ -44,7 +57,7 @@ What the gate looks like once you arrive at its foot.
   base are tiny. The gate fills the frame and is viewed looking slightly up.
 - **The arch:** a single, very tall, deep round-headed arch with a heavy
   recessed frame. Through it you glimpse a bright, hazy plaza and
-  pale buildings of the city beyond — light pouring out of the opening.
+  pale buildings of the Breach beyond — light pouring out of the opening.
 - **Ornament:** elaborate carved stonework over the whole façade —
   interlaced/braided knotwork bands running up the flanking pilasters, a
   sculpted panel and crest above the arch, carved frieze bands, and tall
@@ -91,16 +104,17 @@ The two references differ; our Great Gate must reconcile them:
 
 ## Mood
 
-Grand, welcoming and ancient: a prosperous, peaceful countryside leading to
-an imposing but beautiful entrance. The feeling on arrival is awe at the
-scale and craftsmanship, with the bright city glimpsed through the arch as
-the reward.
+Grand, welcoming and ancient. For a traveller coming out of the Wildlands,
+the Great Gate is the first sign of civilization in a long time: the
+feeling on arrival is relief and awe at the scale and craftsmanship, with
+the bright, ordered streets of the Breach glimpsed through the arch as the
+reward.
 
 ## Open questions
 
-- **"The Breach":** is the name historical (the wall was once breached here
-  and the gate built in the gap), or should the gate/wall show visible
-  damage, repairs or a different-coloured section of masonry? Neither
-  reference shows any breach yet.
-- Is the citadel on the hill part of the same city (e.g. the Academy), or a
-  separate location?
+- **Wildlands vs. farmland:** the distant reference shows tame, cultivated
+  farmland outside the wall. Since this is the Wildlands side, should the
+  foreground be wilder (overgrown road, rougher terrain, forest edge) with
+  only a thin cultivated strip near the wall? Or is the farmland a buffer
+  zone the Breach has carved out of the Wildlands?
+- Is the citadel on the hill part of the Breach, or a separate location?
