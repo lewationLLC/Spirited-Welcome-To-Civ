@@ -124,5 +124,6 @@ The two references differ; our Great Gate must reconcile them:
 Grand, welcoming and ancient. For a traveller coming out of the Wildlands,
 the Great Gate is the first sign of civilization in a long time: the
 feeling on arrival is relief and awe at the scale and craftsmanship, with
-the bright, ordered streets of the Breach glimpsed through the arch as the
-reward.
+the bright streets of the Breach glimpsed through the arch as the reward.
+That first impression is a little too good: inside, the town belongs to
+liars, thieves and merchants.
