@@ -12,8 +12,8 @@ for The Arrowhead must add it as described in
 
 A sun-baked desert port city on a sandy coast, built at the foot of a
 colossal wind-carved sandstone pillar. Rising from the heart of the city is
-a titanic stone arrowhead, driven point-first into the earth at an angle as
-if fired from the sky, its base buried and its broad blade and tang jutting
+a titanic obsidian arrowhead, driven point-first into the earth at an angle.
+It is the head of a real arrow, fired and fallen from the sky, its base buried and its broad blade and tang jutting
 high above the rooftops. The city takes its name from it. Two bays of water
 frame a narrow spit of land that leads straight toward the city.
 
@@ -22,20 +22,26 @@ frame a narrow spit of land that leads straight toward the city.
 The single most important element of any depiction of the city. Nothing in
 the reference image shows it; it must be added.
 
+**Lore:** the Arrowhead is the head of an arrow that was fired and fell from
+the sky. On its way down it split the mountain range in two, carving out
+**Death Valley** (see [`../death-valley/`](../death-valley/README.md)), before
+burying itself point-first where the city now stands.
+
 - **Form:** a classic knapped stone arrowhead (leaf/triangular blade with
   notched shoulders and a short tang), **point buried in the ground**. Roughly
   the bottom third of the blade is underground; the wide shoulders and tang
   are exposed and point up and back toward the sky.
-- **Angle:** tilted ~20–30° from vertical, leaning away from the sea, as if
-  it struck the earth on a steep descent. The tilt should read clearly
+- **Angle:** tilted ~20–30° from vertical, as if it struck the earth on a
+  steep descent. The tang leans back toward the direction it came from —
+  the mountain range and Death Valley — so its line of flight is readable. The tilt should read clearly
   against the near-vertical rock pillar.
 - **Scale:** taller than the great domed palace by several times and at least
   as tall as the waist of the rock pillar — visible from anywhere on the
   coast. It is the city's skyline focal point, not a monument on a plinth.
 - **Placement:** in or just behind the city centre, between the domed palace
   and the rock pillar, so the causeway leads the eye straight to it.
-- **Material & surface:** dark, glassy knapped stone (obsidian/flint-like,
-  deep charcoal with blue-violet sheen) to contrast with the warm sandstone
+- **Material & surface:** **obsidian** — dark, glassy knapped volcanic glass,
+  deep charcoal with a blue-violet sheen, to contrast with the warm sandstone
   around it. Conchoidal flake scars across both faces; sharp, faintly
   catching edges. Weathered and dusty near the ground.
 - **Impact:** the ground around its base is heaved up in a broken crater rim
@@ -45,9 +51,9 @@ the reference image shows it; it must be added.
   shadow falls across part of the city. Small figures, banners or walkways
   on the lower exposed blade help sell the scale.
 
-Open questions to confirm: material/colour (obsidian vs. the same red
-sandstone as the cliffs), whether it was carved, natural, or fell from the
-sky in the lore, and its exact position relative to the rock pillar.
+Open questions to confirm: its exact position relative to the rock pillar,
+and where Death Valley lies relative to the city (so the arrow's line of
+flight, and the tang's lean, point the right way).
 
 ## Key elements (in order of visual importance)
 

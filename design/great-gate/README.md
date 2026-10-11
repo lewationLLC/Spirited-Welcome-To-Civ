@@ -12,6 +12,23 @@
   civilization.
 - The approach shown below is therefore from the **west**, coming in from the
   Wildlands side, with the Breach lying beyond the gate to the east.
+- Travellers (including Jaun) reach this approach by crossing **Death
+  Valley**, the pass through the mountains between the Wildlands and the
+  Breach (see [`../death-valley/`](../death-valley/README.md)).
+- The farmland outside the wall is a **buffer zone the Breach cleared** out of
+  the Wildlands. It should look tamed and cultivated, but it is a frontier:
+  the wilder land begins where the farms end.
+
+## The Breach and its people
+
+- **The Citadel on the Hill** is part of the Breach. It is where the town's
+  ruling family lives, and the seat of power over the town.
+- The ruling family is now the **Yikiza clan**.
+- The Breach is mostly made up of **liars, thieves and merchants**. Behind
+  the grand, welcoming gate, the town should feel busy, mercantile and a
+  little crooked: crowded market streets, haggling stalls, back alleys,
+  watchful faces. The contrast between the noble Great Gate and the shady
+  town behind it is deliberate.
 
 This brief covers how the Great Gate, and the Breach behind it, must look to
 someone approaching. Two references cover the two stages of the approach:
@@ -39,8 +56,8 @@ The traveller's first full view of the gate, from the farm road below.
   twin towers flanking a deep central arch (portcullis/doors visible),
   framed by taller corner towers. It reads as more ornate and heavier than
   the plain wall either side.
-- **The Breach beyond:** a rocky hill rises behind the gate, crowned by a
-  castle/citadel with towers and terraced buildings tumbling down its slopes.
+- **The Breach beyond:** a rocky hill rises behind the gate, crowned by the
+  **Citadel on the Hill** (seat of the Yikiza clan), with towers and terraced buildings tumbling down its slopes.
   A lone slender spire/tower stands further along the wall to the right.
 - **The landscape:** green rolling hills, a winding blue river, patchwork
   farmland, scattered trees and red-roofed farmhouses fading into distant
@@ -109,12 +126,3 @@ the Great Gate is the first sign of civilization in a long time: the
 feeling on arrival is relief and awe at the scale and craftsmanship, with
 the bright, ordered streets of the Breach glimpsed through the arch as the
 reward.
-
-## Open questions
-
-- **Wildlands vs. farmland:** the distant reference shows tame, cultivated
-  farmland outside the wall. Since this is the Wildlands side, should the
-  foreground be wilder (overgrown road, rougher terrain, forest edge) with
-  only a thin cultivated strip near the wall? Or is the farmland a buffer
-  zone the Breach has carved out of the Wildlands?
-- Is the citadel on the hill part of the Breach, or a separate location?
