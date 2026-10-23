@@ -31,9 +31,12 @@ burying itself point-first where the city now stands.
   notched shoulders and a short tang), **point buried in the ground**. Roughly
   the bottom third of the blade is underground; the wide shoulders and tang
   are exposed and point up and back toward the sky.
+- **Facing:** the point faces **southeast**, into the mountain range that
+  stretches off into the distance. Death Valley runs dead straight from the
+  Arrowhead's tip southeast through the range, continuing its line of flight
+  (see [`../world/overhead-layout.png`](../world/overhead-layout.png)).
 - **Angle:** tilted ~20–30° from vertical, as if it struck the earth on a
-  steep descent. The tang leans back toward the direction it came from —
-  the mountain range and Death Valley — so its line of flight is readable. The tilt should read clearly
+  steep descent heading southeast; the tang leans back toward the northwest. The tilt should read clearly
   against the near-vertical rock pillar.
 - **Scale:** taller than the great domed palace by several times and at least
   as tall as the waist of the rock pillar — visible from anywhere on the
@@ -51,9 +54,7 @@ burying itself point-first where the city now stands.
   shadow falls across part of the city. Small figures, banners or walkways
   on the lower exposed blade help sell the scale.
 
-Open questions to confirm: its exact position relative to the rock pillar,
-and where Death Valley lies relative to the city (so the arrow's line of
-flight, and the tang's lean, point the right way).
+Open question: its exact position relative to the rock pillar.
 
 ## Key elements (in order of visual importance)
 
