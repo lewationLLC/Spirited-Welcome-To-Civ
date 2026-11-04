@@ -17,14 +17,18 @@ When two or more rows fit the task, ask Kilo with AskUserQuestion (one option pe
 | VFX, shaders, dissolves, glows | Game Studios `unity-shader-specialist`, `technical-artist` |
 | UI / HUD / menu motion | Game Studios `/ux-design` → `/team-ui` (`unity-ui-specialist`, `ui-programmer`); or mock the motion first with gstack `design-motion` (MP4/GIF loop) or taste-skill's motion step |
 | Animation spec per asset | Game Studios `/art-bible` → `/asset-spec` (includes AI generation prompts) |
-| Trailer, promo, social clip | agnes-video-generator (free AI video: multi-scene, narration, subtitles, keyframes; needs an Agnes API key) or HyperFrames by HeyGen (programmable HTML/GSAP video, cloud render; connector available) |
+| Trailer, promo, social clip | ComfyUI via Comfy Cloud (image/text-to-video workflows), agnes-video-generator (free AI video: multi-scene, narration, subtitles, keyframes; needs an Agnes API key) or HyperFrames by HeyGen (programmable HTML/GSAP video, cloud render; connector available) |
 | Animated architecture / system diagram | archify (HTML diagrams with motion, WebM export) |
+| Concept art, textures, key art | ComfyUI via Comfy Cloud, prompts from Game Studios `/asset-spec` |
+| 3D props / environment pieces from a reference image | ComfyUI via Comfy Cloud (Hunyuan3D), then retopo/UV for Unity; or hand modelling from `/asset-spec` |
 | Generative art, particle studies, title-screen backgrounds | `algorithmic-art` (bundled here, p5.js) |
 | Short animated GIF (devlog, Discord, Slack) | `slack-gif-creator` (bundled here) |
 
 ## Installing the ones not bundled
 
 Ask Kilo before installing anything into this repo; install into the session or user skills folder otherwise.
+
+- ComfyUI via Comfy Cloud (Kilo's chosen route): connector `https://cloud.comfy.org/mcp` with Kilo's Comfy Cloud account (OAuth, or API key for headless use). Cloud sessions also need `cloud.comfy.org` in the environment's allowed domains. If the connector is not attached, say so instead of generating images another way. Keep exported API-format workflows under `tools/comfy/` next to the asset specs they serve.
 
 - gstack: `git clone --depth 1 https://github.com/garrytan/gstack.git ~/.claude/skills/gstack && cd ~/.claude/skills/gstack && ./setup` (needs Bun 1.4+)
 - taste-skill: `git clone --depth 1 https://github.com/Leonxlnx/taste-skill.git` then copy `skills/taste-skill` into `~/.claude/skills/`
