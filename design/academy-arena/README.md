@@ -6,6 +6,10 @@
 the **Bouts** take place. It is a mood/layout reference only; the architecture
 below is what our version must reproduce.
 
+**Location:** inside the Breach, south of the gate plaza, as its largest
+building (assumption; see [`../world/`](../world/README.md) for the map and
+a plan/section of the arena).
+
 Focus areas, in priority order: **(1) the large sunken stadium** and
 **(2) the moat surrounding the elevated arena**. The fighters, effects and
 foreground crowd in the reference are secondary.
