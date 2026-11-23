@@ -93,12 +93,11 @@ the wall exists. It is home to **liars, thieves and merchants**.
 - **The Citadel on the Hill:** a walled keep on a green hill northeast of the
   plaza, reached by the main street. It is the seat of the **Yikiza clan**,
   who rule the town.
-- **The Academy Arena:** inside the wall, south of the plaza (confirmed;
-  see below).
 
-### The Academy Arena
-The venue for **the Bouts**, and the largest building in the Breach. The
-inset on the map shows it in plan and in section:
+### The Academy Arena (Myria City valley, off this map)
+The venue for **the Bouts**. It stands **inside the Myria City valley**, not
+in the Breach, and Myria City is not on this map yet, so the arena appears
+only as the inset panel, in plan and in section:
 - a **large sunken stadium**: a huge oval bowl dug below street level, with
   steep tiers of stands wrapping all the way round,
 - a brick-red **parapet ring** and a pale stone apron at the bottom of the
@@ -106,8 +105,7 @@ inset on the map shows it in plan and in section:
 - a ring of **glowing cyan water (the moat)** all the way round the arena,
 - the **elevated octagonal arena** in the centre, standing above the water,
   its surface split by a centre line into zones,
-- one big **entrance ramp** cutting down through the stands, on the side
-  facing the gate plaza.
+- one big **entrance ramp** cutting down through the stands.
 
 Full visual brief: [`../academy-arena/`](../academy-arena/README.md).
 
@@ -115,6 +113,8 @@ Full visual brief: [`../academy-arena/`](../academy-arena/README.md).
 
 These are choices made to draw the map, not settled canon:
 
+- Where the **Myria City valley** sits relative to this map (and so where
+  the Academy Arena goes when the map is extended).
 - Death Valley is the **only pass** through the range shown here.
 - The Arrowhead city sits on the northern edge of the Wildlands, so the
   Wildlands lie to its south and the journey east starts from the city.

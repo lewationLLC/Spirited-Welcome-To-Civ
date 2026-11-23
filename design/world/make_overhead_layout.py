@@ -279,8 +279,6 @@ for i in range(330):
         continue
     if (x - 1300) ** 2 / 100 ** 2 + (y - 770) ** 2 / 75 ** 2 < 1:
         continue
-    if (x - 1235) ** 2 + (y - 1065) ** 2 < 112 ** 2:
-        continue
     if in_box((x, y), INSET, 10) or abs(x - 1150) + abs(y - 905) < 24:
         continue
     sz = rng.uniform(5, 9)
@@ -291,25 +289,6 @@ for i in range(16):
     x = 1160 + rng.uniform(-40, 70)
     y = 935 + rng.uniform(-15, 30)
     add(f'<rect x="{x:.0f}" y="{y:.0f}" width="5" height="5" fill="{rng.choice(["#b5603a", "#c9b86a", "#7a3a2a"])}"/>')
-
-# Academy Arena (overhead icon): sunken bowl, parapet ring, moat, octagon.
-AX, AY = 1235, 1065
-add(f'<ellipse cx="{AX}" cy="{AY}" rx="104" ry="92" fill="#14243a" stroke="#0c1624" stroke-width="3"/>')
-for r in range(3):
-    add(f'<ellipse cx="{AX}" cy="{AY}" rx="{92-r*12}" ry="{80-r*11}" fill="none" stroke="#1f3b3a" stroke-width="5"/>')
-add(f'<ellipse cx="{AX}" cy="{AY}" rx="56" ry="48" fill="#7a3a2a"/>')
-add(f'<ellipse cx="{AX}" cy="{AY}" rx="51" ry="44" fill="#d9d2c0"/>')
-add(f'<circle cx="{AX}" cy="{AY}" r="58" fill="url(#glow)" opacity=".6"/>')
-add(f'<ellipse cx="{AX}" cy="{AY}" rx="45" ry="39" fill="#5fd6e8"/>')
-octo = [(AX + 24 * math.cos(math.radians(22.5 + 45 * k)), AY + 24 * math.sin(math.radians(22.5 + 45 * k))) for k in range(8)]
-add(f'<polygon points="{pts(octo)}" fill="#d8be8e" stroke="#a88a5a" stroke-width="2"/>')
-add(f'<line x1="{AX}" y1="{AY-22}" x2="{AX}" y2="{AY+22}" stroke="#7a5a3a" stroke-width="1.2"/>')
-# entrance ramp cutting through the stands (north-west, facing the plaza)
-add(f'<polygon points="{AX-60},{AY-74} {AX-82},{AY-58} {AX-40},{AY-28} {AX-30},{AY-38}" fill="#c9b86a" stroke="#5a4636" stroke-width="1"/>')
-for i in range(70):
-    a = rng.uniform(0, 2 * math.pi)
-    r = rng.uniform(0.62, 0.97)
-    add(f'<circle cx="{AX+104*r*math.cos(a):.1f}" cy="{AY+92*r*math.sin(a):.1f}" r="1" fill="#c9b86a"/>')
 
 # Wall over everything in the Breach, with towers and the Great Gate.
 add(f'<path d="M{WALL[0][0]} {WALL[0][1]} C{WALL[1][0]} {WALL[1][1]} {WALL[2][0]} {WALL[2][1]} '
@@ -354,8 +333,6 @@ label(1150, 534, "city wall", 12, anchor="start")
 label(1300, 690, "Citadel on the Hill", 14, bold=True)
 label(1300, 707, "seat of the Yikiza clan", 11, italic=True)
 label(1150, 880, "gate plaza &amp; market", 11, anchor="middle")
-label(AX, AY + 112, "ACADEMY ARENA", 14, bold=True)
-label(AX, AY + 128, "where the Bouts are fought", 11, italic=True)
 label(1440, 1150, "THE BREACH", 24, bold=True)
 label(1440, 1172, "of Civilization · liars, thieves &amp; merchants", 12, italic=True)
 
@@ -382,15 +359,15 @@ add('<g transform="translate(24 952)"><rect width="380" height="224" rx="8" fill
     '<text x="66" y="161" font-size="12">city wall</text>'
     '<rect x="22" y="172" width="36" height="12" fill="url(#farm)"/>'
     '<text x="66" y="182" font-size="12">cleared farmland (buffer zone)</text>'
-    '<circle cx="40" cy="203" r="9" fill="#5fd6e8" stroke="#14243a" stroke-width="4"/>'
-    '<text x="66" y="207" font-size="12">Academy Arena (sunken stadium, moat)</text></g>')
+    '<text x="16" y="208" font-size="11" font-style="italic">Inset: Academy Arena (Myria City valley, off this map)</text></g>')
 
 # ---------------------------------------------------------------- arena inset
 x0, y0, x1, y1 = INSET
 add(f'<g><rect x="{x0}" y="{y0}" width="{x1-x0}" height="{y1-y0}" rx="8" fill="#f4ead6" '
     f'stroke="#5a4636" stroke-width="1.5"/>')
 add(f'<text x="{(x0+x1)/2}" y="{y0+24}" font-size="15" font-weight="bold" text-anchor="middle">Academy Arena — plan</text>')
-cx, cy = (x0 + x1) / 2, y0 + 150
+add(f'<text x="{(x0+x1)/2}" y="{y0+40}" font-size="11" font-style="italic" text-anchor="middle">in the Myria City valley · not on this map</text>')
+cx, cy = (x0 + x1) / 2, y0 + 164
 add(f'<ellipse cx="{cx}" cy="{cy}" rx="128" ry="112" fill="#14243a"/>')
 for r in range(6):
     add(f'<ellipse cx="{cx}" cy="{cy}" rx="{122-r*9}" ry="{106-r*8}" fill="none" stroke="#1f3b3a" stroke-width="4"/>')
@@ -417,12 +394,12 @@ def callout(px, py, tx, ty, text, anchor="start"):
 
 
 callout(cx + 6, cy + 20, cx - 10, cy + 128, "octagonal platform", "middle")
-callout(cx + 50, cy - 22, x1 - 6, cy - 120, "glowing moat", "end")
+callout(cx + 50, cy - 22, x1 - 6, cy - 106, "glowing moat", "end")
 callout(cx + 100, cy + 52, x1 - 6, cy + 120, "sunken stands", "end")
-callout(cx - 94, cy - 80, x0 + 10, cy - 116, "entrance ramp")
+callout(cx - 94, cy - 80, x0 + 10, cy - 104, "entrance ramp")
 callout(cx - 66, cy + 10, x0 + 8, cy + 125, "parapet ring")
 # section
-sy = y0 + 330
+sy = y0 + 338
 add(f'<text x="{(x0+x1)/2}" y="{sy-18}" font-size="12" font-weight="bold" text-anchor="middle">Section (ground level dashed)</text>')
 add(f'<line x1="{x0+8}" y1="{sy}" x2="{x1-8}" y2="{sy}" stroke="#5a4636" stroke-dasharray="4 3"/>')
 sec = [(x0 + 12, sy), (x0 + 30, sy), (cx - 70, sy + 56), (cx - 58, sy + 56), (cx - 58, sy + 74),
