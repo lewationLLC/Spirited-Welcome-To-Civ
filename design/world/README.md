@@ -93,7 +93,8 @@ the wall exists. It is home to **liars, thieves and merchants**.
 - **The Citadel on the Hill:** a walled keep on a green hill northeast of the
   plaza, reached by the main street. It is the seat of the **Yikiza clan**,
   who rule the town.
-- **The Academy Arena:** south of the plaza (see below).
+- **The Academy Arena:** inside the wall, south of the plaza (confirmed;
+  see below).
 
 ### The Academy Arena
 The venue for **the Bouts**, and the largest building in the Breach. The
@@ -114,8 +115,6 @@ Full visual brief: [`../academy-arena/`](../academy-arena/README.md).
 
 These are choices made to draw the map, not settled canon:
 
-- **The Academy Arena is in the Breach**, south of the gate plaza. It could
-  instead stand outside the wall, or in another town altogether.
 - Death Valley is the **only pass** through the range shown here.
 - The Arrowhead city sits on the northern edge of the Wildlands, so the
   Wildlands lie to its south and the journey east starts from the city.
